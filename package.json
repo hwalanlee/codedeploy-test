@@ -1,0 +1,14 @@
+{
+  "name": "codedeploy-test",
+  "version": "1.0.0",
+  "description": "- vpc 생성\r     - asg 포함된 cdk로 생성\r     - 여기서 젠킨스 사용 후 기존 vpc 삭제\r     - node 서버 테스트용 서비스",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
