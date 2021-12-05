@@ -1,4 +1,3 @@
 #!/bin/bash
-cd /home/ec2-user/simple-nodejs/
+cd /home/ec2-user/codedeploy-test/
 npm install
-sudo systemctl stop rc-local.service

@@ -5,7 +5,7 @@
 
 - 인스턴스
 ?   - base image - 업데이트, code deploy 에이전트, (telegraf, cloud watch agent 로그 등은 나중에 적용)
-    - server data - 서버 프로그램 설치, git push로 CodeDeploy로 배포하는 게 나을 듯
+    - server data - 서버 프로그램 설치만 한 후 코드는 git으로 땡겨올 수 있도록 구성
     - ami 생성
 
 - 코드 작성
