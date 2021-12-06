@@ -1,8 +1,11 @@
 version: 0.0
 os: linux
 files:
-  - source: /
-    destination: /home/ec2-user
+  - source: index.js
+    destination: /home/ec2-user/codedeploy-test
+# files:
+#   - source: /
+#     destination: /home/ec2-user
 file_exists_behavior: OVERWRITE
 hooks:
   ApplicationStop:
