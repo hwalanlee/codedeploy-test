@@ -4,7 +4,7 @@
     - node 서버 테스트용 서비스
 
 - 인스턴스
-    - base image - 업데이트, code deploy 에이전트, (telegraf, cloud watch agent 로그 등은 나중에 적용)
+    - base image - 업데이트, code deploy 에이전트, git (telegraf, cloud watch agent 로그 등은 나중에 적용)
         - code deploy
             - sudo yum update -y
             - sudo yum install ruby -y
@@ -15,7 +15,7 @@
             - sudo ./install auto
                 - 버전 명시 sudo ./install auto -v releases/codedeploy-agent-###.rpm
             - 상태 확인 sudo service codedeploy-agent status
-?   - server data - 서버 프로그램 설치만 한 후 코드는 git으로 땡겨올 수 있도록 구성
+?   - server data - 서버 프로그램 설치만 한 후 코드는 git으로 땡겨올 수 있도록 구성 
     - ami 생성
 
 - 코드 작성
